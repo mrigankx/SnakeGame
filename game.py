@@ -103,6 +103,7 @@ class Game():
             if self.checkForKey():
                 pygame.event.get()
                 return
+
     def run(self):
         while True:
             self.gameLoop()

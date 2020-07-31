@@ -8,7 +8,6 @@ class Config():
     assert WINDOW_HEIGHT % CELLSIZE == 0, "Window height must be a multiple of cell size"
     CELLWIDTH = int(WINDOW_WIDTH / CELLSIZE)
     CELLHEIGHT = int(WINDOW_HEIGHT / CELLSIZE)
-
     WHITE = (255, 255, 255)
     BLACK = (0, 0, 0)
     RED = (255, 0, 0)

@@ -6,7 +6,6 @@ class Snake():
     LEFT = 'left'
     RIGHT = 'right'
     HEAD = 0
-
     def __init__(self):
         self.x = random.randint(5, Config.CELLWIDTH - 6)
         self.y = random.randint(5, Config.CELLHEIGHT - 6)
