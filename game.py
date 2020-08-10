@@ -3,8 +3,6 @@ from config import Config
 from snake import Snake
 from apple import Apple
 import pygame, sys
-import os
-os.environ["SDL_VIDEODRIVER"] = "dummy"
 class Game():
     def __init__(self):
         pygame.init()
