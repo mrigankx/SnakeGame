@@ -19,6 +19,20 @@ pip install pygame
 ## How to run this project
 1) Clone the Repository.
 2) Switch to master branch.
-3) To run the project, enter and run ./script.py.
+3) To run the project, enter and run
+```bash
+python script.py
+```
+# Project Tree
+1) `config.py` - Contains all the constant variables declaration which are used by all the files. 
+  
+2) `apple.py` - Contains definitions of functions of `Apple`.It calculates the new position of the apple.
 
+3) `snake.py` - Contains the functionality of the snake; like, the size, control and movement of the snake.
+
+4) `game.py` - Contains the functionality of the whole game. It will draw the whole game board, snake, apple and the score. 
+
+5) `script.py` - It will call the class Game from `game.py`. It will run the whole game.
+ 
+---
 
