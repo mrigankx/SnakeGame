@@ -21,7 +21,7 @@ pip install pygame
 2) Switch to master branch.
 3) To run the project, enter and run
 ```bash
-python script.py
+python app.py
 ```
 # Project Tree
 1) `config.py` - Contains all the constant variables declaration which are used by all the files. 
@@ -32,7 +32,7 @@ python script.py
 
 4) `game.py` - Contains the functionality of the whole game. It will draw the whole game board, snake, apple and the score. 
 
-5) `script.py` - It will call the class Game from `game.py`. It will run the whole game.
+5) `app.py` - It will call the class Game from `game.py`. It will run the whole game.
  
 ---
 
